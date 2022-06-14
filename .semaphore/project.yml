@@ -9,8 +9,10 @@ spec:
     run_on:
       - branches
       - tags
+    integration_type: github_app
     pipeline_file: ".semaphore/semaphore.yml"
     status:
       pipeline_files:
         - path: ".semaphore/semaphore.yml"
           level: "pipeline"
+          
